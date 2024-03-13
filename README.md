@@ -32,7 +32,7 @@ This project introduces a Chrome extension that facilitates query-based interact
 - **Improved Query Understanding:** Enhance natural language processing capabilities for a better understanding of user queries.
 - **Enhanced User Interface:** Improve the user interface for a more intuitive and user-friendly experience.
 - **Support for More File Formats:** Extend support for parsing and analyzing various file formats beyond PDF.
-- - **Form Filling Capability:** Develop a form-filling capability to automatically fill forms based on extracted information from PDF files.
+- **Form Filling Capability:** Develop a form-filling capability to automatically fill forms based on extracted information from PDF files.
 
 ## Dependencies
 
