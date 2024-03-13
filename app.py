@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 import google.generativeai as genai
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyADC5i_8phnQgfqYU8t5Rju0KZyiWaMZDY"
+os.environ["GOOGLE_API_KEY"] = "YOUR_GOOGLE_API_KEY"
 
 app = Flask(__name__, template_folder='E:/Learnings/FormFiller/flask_app/templates', static_folder='E:/Learnings/FormFiller/flask_app/templates/static')
 
