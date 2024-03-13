@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "My Q&A Extension",
+  "version": "1.0",
+  "description": "Extracts answers from PDFs based on your query",
+  "permissions": [
+    "activeTab"
+    
+  ],
+  "action": {
+    "default_popup": "/templates/popup.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ]
+}

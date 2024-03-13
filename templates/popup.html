@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask App</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <h1>Welcome to My PDF QnA</h1>
+    <form id="qa-form" action="/answer" method="post" enctype="multipart/form-data">
+        <label for="query">Query:</label>
+        <input type="text" id="query" name="query" required>
+        <label for="pdf">PDF:</label>
+        <input type="file" id="pdf" name="pdf" accept=".pdf" required>
+        <button type="submit">Submit</button>
+    </form>
+    <label for="Answer">Answer:</label>
+    <div id="answer">
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
